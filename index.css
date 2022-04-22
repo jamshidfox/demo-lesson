@@ -1,0 +1,143 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(58, 52, 80);
+  }
+  nav span{
+    color: white;
+    cursor: pointer;
+
+  }
+  h6 {
+    color: white;
+    display: flex;
+    margin-top: 1em;
+    cursor: pointer;
+    text-shadow: rgb(212, 18, 83);
+  }
+  /* h6:hover {
+    transition: 0.5s all ease;
+    color: lime;
+    font-weight: bold;
+  } */
+  nav>:hover {
+    transition: 0.5s all ease;
+    color: lime;
+    font-weight: bold;
+  }
+ 
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(248, 172, 7);
+    width: 100%;
+    height: 130px;
+  }
+  .sd h5 {
+    color: lightseagreen;
+  }
+  .sd h5:hover {
+    transition: 1s all ease;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .clas2 {
+    margin-top: 12em;
+    padding-left: 3em;
+  }
+  #polo {
+    padding-top: 8em;
+    padding-left: 20em;
+    display: flex;
+  }
+  
+  /*_________________________________________________*/
+  body {
+    overflow-x: hidden;
+  }
+  
+  .section1 {
+    padding: 4rem 9rem;
+    background-color: rgb(225, 234, 236);
+  }
+  .section1 div h4 {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+      sans-serif;
+  }
+  .section1 .about {
+    height: 60px;
+    border-bottom: 2px solid black;
+  }
+  .section1 .about-description {
+    display: flex;
+    justify-content: 'between';
+    margin-top: 3rem;
+  }
+  .section1 .about-description h1 {
+    width: 200%;
+  }
+  .section1 .about-description p {
+    width: 160%;
+  }
+  .section1 .about-image {
+    width: 100%;
+    margin-left: 5rem;
+  }
+  .section1 .about-image img {
+    display: flex;
+    justify-content: 'between';
+    margin-top: 3rem;
+    max-width: 90%;
+    padding: 2rem;
+  }
+  .section1 .about-example {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: 'evenly';
+  }
+  .section2 {
+    padding: 4rem 9rem;
+    background-color: rgb(163, 172, 173);
+  }
+  .section2 .reg-info {
+    display: flex;
+    justify-content: 'between';
+  }
+  .section2 .reg-info .form {
+  margin-right: 3rem;
+}
+  .section2 .reg-info img {
+    width: 400px;
+  }
+  .section2 .reg-info .form .input-group {
+    margin-top: 3rem;
+    height: 60px;
+    width: 400px;
+  }
+  .section2 .reg-info .form button {
+    margin-top: 3rem;
+    width: 400px;
+    height: 60px;
+  }
+  .section2 .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 6rem;
+    justify-content: center;
+  }
+  footer {
+    height: 200px;
+    background-color: rgb(58, 52, 80);
+    display: flex;
+    justify-content: 'around';
+  }
